@@ -212,18 +212,24 @@ footer .contact {
   margin-bottom: 50px;
 }
 
-footer .social-icons i {
+footer .social-icons {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  font-size: 1.3125em;
-  color: #527158;
+  align-content: center;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -608,6 +614,15 @@ input[type=button] {
       margin-bottom: 40px;
     }
 
+    footer p {
+      line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+
     footer .copyright {
       width: 100%;
     }
@@ -708,7 +723,11 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
+  }
+
+  .form-description p {
+    font-size: 1.125em;
   }
 
   /* Features */
