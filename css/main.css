@@ -365,7 +365,7 @@ input[type=button] {
   justify-content: center;
 }
 
-.map figure {
+.map-container figure {
   width: 100%;
   height: 0;
   padding-bottom: 125%;
@@ -373,7 +373,7 @@ input[type=button] {
   position: relative;
 }
 
-.map iframe {
+.map-container iframe {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -675,7 +675,7 @@ input[type=button] {
     width: 45%;
   }
 
-  .map figure {
+  .map-container- figure {
     padding-bottom: 45.5%;
   }
 
@@ -790,7 +790,7 @@ input[type=button] {
   /* ==========================================================================
   About Page
   ========================================================================== */
-  .map figure {
+  .map-container figure {
     padding-bottom: 37.5%;
   }
 
